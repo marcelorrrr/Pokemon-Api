@@ -20,7 +20,7 @@ body {
 #pokemonResult img {
     width: 150px;
     height: 150px;
-    image-rendering: pixelated; /* ¡Efecto retro! */
+    image-rendering: pixelated; 
 }
 #pokemonResult h2 { text-transform: capitalize; }
 .error { color: #e6e93b; font-weight: bold; }

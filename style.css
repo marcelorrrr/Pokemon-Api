@@ -3,12 +3,24 @@ body {
     display: grid;
     place-items: center;
     min-height: 90vh;
-    background-color: #f4f4f4;
+    background-color: #ad0c0c;
 }
 #pokedex-container {
-    background: white;
+    background: rgb(194, 79, 79);
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0,0,0,0.1);
     text-align: center;
 }
+
+#pokemonInput { padding: 10px; border: 1px solid #ddd; }
+#searchButton { padding: 10px; background-color: #e63946; color: white; border: none; cursor: pointer; }
+
+#pokemonResult img {
+    width: 150px;
+    height: 150px;
+    image-rendering: pixelated; /* ¡Efecto retro! */
+}
+#pokemonResult h2 { text-transform: capitalize; }
+.error { color: red; font-weight: bold; }
+

@@ -23,5 +23,5 @@ body {
     image-rendering: pixelated; /* ¡Efecto retro! */
 }
 #pokemonResult h2 { text-transform: capitalize; }
-.error { color: red; font-weight: bold; }
+.error { color: #e6e93b; font-weight: bold; }
 

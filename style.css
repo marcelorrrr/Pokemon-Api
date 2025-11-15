@@ -3,17 +3,18 @@ body {
     display: grid;
     place-items: center;
     min-height: 90vh;
-    background-color: #ad0c0c;
+    background-color: #ca6c6c;
 }
 #pokedex-container {
-    background: rgb(194, 79, 79);
+    background: rgb(235, 10, 10);
+    color:#e6e93b ;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0,0,0,0.1);
     text-align: center;
 }
 
-#pokemonInput { padding: 10px; border: 1px solid #ddd; }
+#pokemonInput { padding: 10px; border: 1px solid #acad45; }
 #searchButton { padding: 10px; background-color: #e63946; color: white; border: none; cursor: pointer; }
 
 #pokemonResult img {

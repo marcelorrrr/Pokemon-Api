@@ -14,7 +14,7 @@ body {
     text-align: center;
 }
 
-#pokemonInput { padding: 10px; border: 1px solid #acad45; }
+#pokemonInput { padding: 10px; border: 1px solid #acad45; border-radius: 15px;}
 #searchButton { padding: 10px; background-color: #e63946; color: white; border: none; cursor: pointer; }
 
 #pokemonResult img {
@@ -23,7 +23,7 @@ body {
     image-rendering: pixelated; 
 }
 #pokemonResult h2 { text-transform: capitalize; }
-.error { color: #e6e93b; font-weight: bold; }
+.error { color: #e63946; font-weight: bold; }
 
 .resultado{
     margin-top: 20px;
@@ -34,4 +34,132 @@ body {
     color: #e63946;
     font-weight: bold;
 
+}
+
+.controles{
+    display: flex;
+    
+}
+
+.circulo{
+    background-color: #223b33;
+    border: #223b33;
+    padding: 15px;
+    border-radius: 100%;
+    cursor: pointer;
+    font-weight: bold;
+    margin: 5px;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    margin-top: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+}
+
+.rectangulos{
+    display: grid;
+    justify-content: start;
+    justify-items: center;
+    margin-right: 10px;
+}
+
+.rectangulos-chicos{
+    display: flex;
+}
+
+
+.rectangulo-pequeñoRojo{
+    background-color: #551116;
+    border: #551116;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    margin: 5px;
+    width: 60px;
+    height: 10px;
+    display: flex;
+    margin-top: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+}
+
+.rectangulo-pequeñoVerde{
+    background-color: #0d4d44;
+    border: #0d4d44;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    margin: 5px;
+    width: 60px;
+    height: 10px;
+    display: flex;
+    margin-top: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+}
+
+.rectangulo-verde{
+    background-color: #25d651;
+    border: #25d651;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    margin: 5px;
+    width: 120px;   
+    height: 40px;
+    display: flex;
+    margin-top: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.pad{
+    margin-top: 15px;    
+    place-items: center;
+
+}
+
+.pad-centro{
+    display: flex;
+}
+
+.pad-arriba, .pad-abajo{
+    background-color: #223b33;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    width: 30px;
+    height: 40px;
+    display: flex;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.pad-izq, .pad-der{
+    background-color: #223b33;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    width: 50px;
+    height: 30px;
+    display: flex;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+}
+
+.pad-der{
+    border-radius: 0px 5px 5px 0px;
+}
+
+.pad-izq{
+    border-radius: 5px 0px 0px 5px;
+}
+
+.pad-arriba{
+    border-radius: 5px 5px 0px 0px;
+}
+
+.pad-abajo{
+    border-radius: 0px 0px 5px 5px;
 }
